@@ -1,3 +1,5 @@
+package Arrays
+
 class PickFromBothSides {
 
     //given a situation where you need to pick "b" objects from either end of the array, find the max value you can get overall as a sum
