@@ -1,10 +1,13 @@
 package arrays
 
-class PickFromBothSides {
+import DSAPractice
+
+
+class PickFromBothSides: DSAPractice {
 
     //given a situation where you need to pick "b" objects from either end of the array, find the max value you can get overall as a sum
     //you can only pick from left or right end at any point
-    fun code() {
+    override fun code() {
         val input = arrayOf(5, -2, 3, 1, 2) //input array
         val b = 3 //constraint, how many items need to be picked up
         var mx = 0 //result, init to 0

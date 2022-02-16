@@ -1,0 +1,3 @@
+interface DSAPractice {
+    fun code()
+}

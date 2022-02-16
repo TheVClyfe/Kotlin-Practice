@@ -1,5 +1,6 @@
 package arrays
 
+import DSAPractice
 import kotlin.math.abs
 import kotlin.math.pow
 
@@ -9,8 +10,8 @@ import kotlin.math.pow
  * Try to this in O(N) time.
  */
 
-class SortArrayWithSquares {
-    fun code() {
+class SortArrayWithSquares: DSAPractice  {
+    override fun code() {
         val input = arrayOf(-5, -4, -2, 0, 1)
         val res: MutableList<Int> = mutableListOf()
         var firstPos = 0
